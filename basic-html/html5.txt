@@ -1,0 +1,30 @@
+html 5
+
+tags:
+
+html
+head
+body
+
+main
+
+ header
+  nav
+   ul
+    li
+   ol
+    li
+ article
+  aside 
+ section
+ div
+
+ footer
+  address
+
+ p
+ h1 -> h6
+ 
+ img
+ audio
+ video

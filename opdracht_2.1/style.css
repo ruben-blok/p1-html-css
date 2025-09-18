@@ -1,0 +1,26 @@
+h1 {
+    color: #1a237e
+}
+
+h2 {
+    color: #546e7a
+}
+
+a {
+    color: #1a237e;
+    text-decoration: none
+}
+
+main {
+   margin-right: 100px; 
+   margin-left: 100px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+    width: 300px
+}
+
+.uni {
+    width: 600px;
+}
