@@ -7,30 +7,63 @@
 </head>
 <body>
     <form action="">
-        <label for="voornaam">Voornaam:</label>
-        <input type="text" name="voornaam" id="voornaam">
 
+        <div style="font-weight: bold;">Persoonlijke informatie</div>
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" name="voornaam" id="voornaam" autofocus pattern="[A-Za-z ]+"><br>
         <label for="achternaam">Achternaam:</label>
-        <input type="text" name="achternaam" id="achternaam">
+        <input type="text" name="achternaam" id="achternaam" pattern="[A-Za-z ]+"><br>
 
         <label for="aanhef">Aanhef:</label>
         <select name="aanhef" id="aanhef">
             <option value="dhr" selected>Dhr.</option>
             <option value="mevr">Mevr.</option>
             <option value="anders">Anders</option>
-        </select>
+        </select><br>
 
         <label for="straat_huisnummer">Straat & huisnummer:</label>
-        <input type="text" name="straat_huisnummer" id="straat_huisnummer">
+        <input type="text" name="straat_huisnummer" id="straat_huisnummer"><br>
 
         <label for="postcode">Postcode:</label>
-        <input type="text" name="postcode" id="postcode">
+        <input type="text" name="postcode" id="postcode"><br>
 
         <label for="woonplaats">Woonplaats</label>
-        <input type="text" name="woonplaats" id="woonplaats">
+        <input type="text" name="woonplaats" id="woonplaats"><br>
 
         <label for="land">Land:</label>
-        <input type="text" name="land" id="land">
+        <input type="text" name="land" id="land"><br>
+
+        <label for="iban">IBAN:</label>
+        <input type="text" name="iban" id="iban" pattern="NL\d{2}[A-Z]{4}\d{10}" maxlength="18"><br><br>
+
+        <div style="font-weight: bold;">Abonnement</div>
+        <label for="abonnement">Type abonnement:</label>
+        <select name="abonnement" id="abonnement">
+            <option value="mobiel" selected>Mobiel</option>
+            <option value="glasvezel">Glasvezel</option>
+            <option value="tv">TV</option>
+        </select><br>
+
+        <label for="datum">Start datum:</label>
+        <input type="date" name="datum" id="datum" min="2025-09-22"><br>
+
+        <label for="looptijd">Looptijd abonnement:</label>
+        <select name="looptijd" id="looptijd">
+            <option value="12">12 maanden</option>
+            <option value="24">24 maanden</option>
+        </select><br>
+
+        <label for="gebruikers">Aantal gebruikers op het abonnement:</label>
+        <input type="number" name="gebruikers" id="gebruikers" max="4" min="1"><br><br>
+
+        <label for="email">E-mailadres:</label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="wachtwoord">Wachtwoord aanmaken:</label>
+        <input type="password" name="wachtwoord" id="wachtwoord"><br><br>
+
+        <input type="submit" value="Sluit abonnement af">
+
     </form>
 </body>
 </html>
