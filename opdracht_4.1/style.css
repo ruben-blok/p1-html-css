@@ -18,6 +18,12 @@ a {
     text-decoration: none;
 }
 
+@font-face {
+    font-family: 'ftltlt-webfont';
+    src: url('ftltlt-webfont.woff2') format('woff2'),
+         url('ftltlt-webfont.woff') format('woff');
+}
+
 main {
-        font-family: 'ftltlt-webfont', sans-serif;
+        font-family: 'ftltlt-webfont';
 }
