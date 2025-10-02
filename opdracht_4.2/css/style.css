@@ -8,13 +8,11 @@ html {
 
 /* Custom Font */
 @font-face {
-  font-family: HelloHiFont;
-  src: url(/fonts/ftltlt-webfont.woff);
-}
-
-@font-face {
-  font-family: HelloHiFont2;
-  src: url(/fonts/ftltlt-webfont2.woff);
+  font-family: 'HelloHiFont';
+  src: url('../fonts/ftltlt-webfont.woff2') format('woff2'),
+       url('../fonts/ftltlt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
@@ -22,7 +20,12 @@ html {
 body {
   margin: 0;
   font-family: HelloHiFont, sans-serif;
- color: #111;
+  color: #111;
+  background-image:url(/opdracht_4.2/img/watch.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-position: 1000px 330px;
 }
 
 
@@ -91,12 +94,12 @@ align-content: center;
 /* Product info */
 .product-info {
   max-width: 680px;
-  margin: 50px 200px;
+  margin: 50px 150px;
   padding: 40px;
   background: #f5f5f5;
   background-color: #fff;
   margin-top: 170px;
-
+  border-bottom-right-radius: 200px;
 }
 .product-info h2 {
   font-size: 36px;
@@ -116,4 +119,6 @@ align-content: center;
   display: inline-block;
   background: black;
   color: white;
+  border: 15px solid black;
+  border-radius: 5px;
 }
