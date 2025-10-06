@@ -1,0 +1,109 @@
+.stage {  
+    position: relative;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+}
+
+.banner{ 
+    width: 300px; 
+    height: 250px; 
+    background-color: black;
+    color :white
+}
+
+.rectangles {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.rectangle1 {
+    background-color: #9000ff;
+    position: absolute;
+    width: 15px;
+    height: 6px;
+    left: 0px;
+}
+
+.rectangle2 {
+    background-color: #55559f;
+    width: 15px;
+    height: 6px;
+    position: absolute;
+    left: 20px;
+}
+
+.rectangle3 {
+    background-color: #b0b0eb;
+    width: 15px;
+    height: 6px;
+    position: absolute;
+    left: 40px;
+}
+
+main {
+    font-size: small;
+}
+
+.hallo {
+    position: absolute;
+    left: 20px;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.hi {
+    position: absolute;
+    top: 15px;
+    left: 130px;
+    width: 35px;
+}
+
+.textblok {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    top: 130px;
+    left: -20px;
+}
+
+li:before {
+    content: "+";
+    margin-right: 4px;
+}
+
+img {
+    position: absolute;
+    width: 80px;
+    top: 30px;
+    left: 190px;
+}
+
+button {
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid white;
+    padding: 10px;
+    top: 200px;
+    left: 185px;
+    color: white;
+    background: none;
+}
+
+.circle {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #7272dd;
+    border-radius: 50%;
+    top: 180px;
+    left: 40px;
+}
