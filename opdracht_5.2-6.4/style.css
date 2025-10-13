@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #9000ff;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-bottom-right-radius: 10px;
+    /* Add a visible border so the radius is noticeable */
+    border: 1px solid #fff;
+    /* Optional: add a slight shadow for better visibility */
+}
+
+.dropdown-content a {
+    display: flex;
+    background-color: #9000ff;
+    padding: 10px;
+}
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
