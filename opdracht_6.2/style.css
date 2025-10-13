@@ -1,0 +1,27 @@
+main {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.blok-1 {
+    background-color: blue;
+}
+
+.blok-2 {
+    background-color: black;
+}
+
+.blok-3 {
+    background-color: red;
+}
+.blok-4 {
+    background-color: green;
+}
