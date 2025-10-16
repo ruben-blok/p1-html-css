@@ -25,9 +25,10 @@ nav a {
     display: none;
     position: absolute;
     border-bottom-right-radius: 10px;
-    /* Add a visible border so the radius is noticeable */
-    border: 1px solid #fff;
-    /* Optional: add a slight shadow for better visibility */
+}
+
+.dropdown-content a:hover {
+    color: black;
 }
 
 .dropdown-content a {
@@ -35,7 +36,6 @@ nav a {
     background-color: #9000ff;
     padding: 10px;
 }
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 
 .dropdown:hover .dropdown-content {
     display: flex;
